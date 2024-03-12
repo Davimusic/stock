@@ -1,0 +1,16 @@
+.contenedorInfo{
+    width: '90vw';
+    max-height: 50vh;
+    overflow-x: auto;
+}
+
+.minimoAncho{
+    min-width: 100px;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .contenedorInfo {
+        overflow-y: auto;
+    }
+}
